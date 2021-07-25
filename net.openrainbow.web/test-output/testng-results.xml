@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-24T22:54:43 IDT" name="Suite" finished-at="2021-07-24T22:55:14 IDT" duration-ms="31472">
+    <groups>
+    </groups>
+    <test started-at="2021-07-24T22:54:43 IDT" name="Test" finished-at="2021-07-24T22:55:14 IDT" duration-ms="31472">
+      <class name="net.openrainbow.test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:net.openrainbow.test.LoginTest@3427b02d]" started-at="2021-07-24T22:54:43 IDT" name="setup" finished-at="2021-07-24T22:54:46 IDT" duration-ms="3481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLogin()[pri:0, instance:net.openrainbow.test.LoginTest@3427b02d]" started-at="2021-07-24T22:54:46 IDT" name="invalidLogin" finished-at="2021-07-24T22:54:54 IDT" duration-ms="7577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:net.openrainbow.test.LoginTest@3427b02d]" started-at="2021-07-24T22:54:54 IDT" name="setup" finished-at="2021-07-24T22:54:56 IDT" duration-ms="1930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:net.openrainbow.test.LoginTest@3427b02d]" started-at="2021-07-24T22:54:56 IDT" name="validLogin" finished-at="2021-07-24T22:55:14 IDT" duration-ms="18425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ealheeh@asaltech.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Asal@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+      </class> <!-- net.openrainbow.test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
